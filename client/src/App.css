@@ -1,0 +1,16 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  color: #444;
+  background: #ffffff;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 500px;
+    height: 95vh;
+    margin: 20px auto;
+  }
+}

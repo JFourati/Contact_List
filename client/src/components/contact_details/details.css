@@ -1,0 +1,137 @@
+.wrapper {
+  text-align: center;
+  height: 100%;
+}
+
+.header {
+  background: #78ce44;
+  color: #fff;
+  height: 30vh;
+  position: relative;
+}
+
+.header .back {
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  left: 5%;
+  top: 10%;
+}
+
+.header .back ion-icon {
+  font-size: 32px;
+}
+
+.header .delete,
+.header .edit {
+  color: #fff;
+  position: absolute;
+  right: 5%;
+  top: 10%;
+  cursor: pointer;
+}
+
+.header .edit {
+  right: 15%;
+}
+
+.header .edit a {
+  color: #fff;
+}
+
+.header .delete ion-icon,
+.header .edit ion-icon {
+  font-size: 25px;
+}
+
+.header .name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.name h3 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.name ion-icon {
+  font-size: 64px;
+}
+
+/* Contact mobile */
+.mobile {
+  background: #fff;
+  margin: 50px 20px 0;
+  padding: 40px 20px;
+  border: 2px solid #eee;
+  box-shadow: 6px 8px 8px #eee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mobile p {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.mobile ion-icon {
+  font-size: 22px;
+}
+
+/* Contact email */
+.email {
+  background: #fff;
+  margin: 50px 20px 0;
+  padding: 40px 20px;
+  border: 2px solid #eee;
+  box-shadow: 6px 8px 8px #eee;
+  display: flex;
+}
+
+.email p {
+  margin: 0;
+  margin-left: 20px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.email ion-icon {
+  font-size: 22px;
+  align-self: center;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .name h3 {
+    font-size: 34px;
+  }
+  .name ion-icon {
+    font-size: 70px;
+  }
+  .mobile,
+  .email {
+    margin: 50px 30px 0;
+  }
+  .mobile ion-icon,
+  .email ion-icon,
+  .mobile p,
+  .email p {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  .mobile,
+  .email {
+    margin: 50px 40px 0;
+  }
+  .mobile ion-icon,
+  .email ion-icon,
+  .mobile p,
+  .email p {
+    font-size: 28px;
+  }
+}

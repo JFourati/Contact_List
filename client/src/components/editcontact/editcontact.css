@@ -1,0 +1,46 @@
+.new {
+	height: 100%;
+	position: relative;
+}
+
+.new a {
+	color: #464646;
+	color: #78ce44;
+	text-decoration: none;
+	position: absolute;
+	top: 3%;
+	left: 5%;
+}
+
+.new a ion-icon {
+	font-size: 32px;
+}
+
+.contact-form {
+	text-align: center;
+	padding-top: 30%;
+	display: block;
+}
+
+.contact-form input {
+	outline: none;
+	border: 0;
+	font-size: 1.2rem;
+	font-family: "Nunito", sans-serif;
+}
+
+#name,
+#mobile,
+#email {
+	display: block;
+	margin: 0 auto 50px;
+	border-bottom: 2px solid #78ce44;
+	width: 70%;
+	padding: 0 5px 10px;
+}
+
+#add {
+	background: #78ce44;
+	color: #fff;
+	padding: 15px 30px;
+}
